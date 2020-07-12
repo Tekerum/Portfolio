@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* geral */
+body, p, h1, h2, input, textarea{
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}
+body{
+	color: #000000;
+}
+h2{
+    font-size: 30px;
+}
+/* Fim Do Geral*/
+
+/* Navbar */
+#navbar{
+	background-color: blueviolet;
+	padding: 0 15px;
+	line-height: 0px;
+}
+#navbar-list a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#navbar-list ul, #navbar-list li{
+	margin: 20px;
+	display: inline-block;
+	float: right;
+}
+
+#navbar-list{
+	margin-top: -50px;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 20px;
+    margin-left: 55px;
+}
